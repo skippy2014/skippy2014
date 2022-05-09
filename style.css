@@ -1,0 +1,111 @@
+*{ 
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+font-size: 20px;
+}
+
+body{
+    background-color: rgb(95, 95, 95);
+}
+
+.header{
+width: 100vw;
+height: 85vh; 
+position: absolute;
+top: 0;
+left: 0;
+color: white;
+text-align: center;
+
+background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url("header.jpg");
+background-size: 2000px, 2000px;
+}
+
+h1{
+    margin-top: 7cm;
+    font-size: 80px;
+}
+
+.nav{
+position: fixed;
+display: flex;
+width: 100vw;
+align-self: center;
+justify-content: center;
+padding-top: 1cm;
+}
+
+.page{
+width: 20%;
+
+
+}
+.linkje{
+ text-decoration: none;
+ font-size: 20px;
+ font-family: sans-serif;
+ text-align: center;
+ color: white;
+transition:  600ms;
+
+}
+
+.linkje:hover{
+    text-decoration: underline;
+    color: rgb(95, 95, 95);
+}
+
+.linkje:active{
+    color: black;
+    text-decoration: underline;
+
+
+}
+
+.info, .info2,.info3{
+    align-self:center;
+    font-size: 30px;
+    color: white;
+font-weight: 700;
+text-align: center;
+}
+
+.info{
+    padding-top: 23cm;
+}
+
+.info2,.info3{
+    
+    
+    font-size:20px ;
+    padding-top: 4cm;
+   
+    
+}
+
+h2{
+  
+    font-size: 80px;
+}
+
+.paragraaf{
+padding-top: 2.5cm;
+}
+
+.Sfoto1 {
+    width: 20%;
+}
+
+.Sfoto2{
+    width: 15%;
+}
+
+.Sfoto{ 
+ padding: 30px;
+ border-radius: 20%;
+}
+
+.Tfoto1{
+    width: 288px;
+}
